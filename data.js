@@ -1,13 +1,21 @@
-let numbers = [2, 5, 5, 7, 7, 9, 9, 9, 12, 15]
 
+/*
+Find the median, mean, and standard deviation of a set of numbers. The code also sorts the numbers!
+To start, add the numbers to the "numbers" variable below (inbetween the [] with commas between each number.)
+Example: [1, 7, 9, 10, 23, 51, 100]
+*/
+
+
+
+let numbers = [1, 2, 3]
+
+
+// Sorted/Total
 let sorted = numbers.sort((a, b) => a - b)
 console.log(sorted)
 
 let total = sorted.length;
 console.log(`Length: ${total}`)
-
-let firstQuartile = sorted[1]
-let lastQuartile = sorted[sorted.length - 1]
 
 let added = 0;
 for (let i = 0; i < sorted.length; i++) {
@@ -15,9 +23,16 @@ for (let i = 0; i < sorted.length; i++) {
     added = added + sorted[i];
 }
 
+
+
+// Mean
 let mean = added/total;
 console.log(`Mean: ${mean}`)
 
+
+
+
+// Median
 let medianNum = total/2
 
 if (total % 2 === 0) {
@@ -39,6 +54,10 @@ if (total % 2 !== 0) {
 }
 
 
+
+
+
+// Standard Deviation (and variance)
 let standardDeviation = 0;
 
 for (let i = 0; i < numbers.length; i++) {
@@ -49,5 +68,5 @@ for (let i = 0; i < numbers.length; i++) {
     let variance = standardDeviation/total
     let sd = Math.sqrt(standardDeviation/total)
 
-console.log(`Variance: ${variance}`)
+//console.log(`Variance: ${variance}`)
 console.log(`Standard Deviation: ${sd}`)
