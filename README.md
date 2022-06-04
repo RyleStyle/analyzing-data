@@ -1,1 +1,5 @@
-Sort numbers, find the amount of numbers, find the mean, find the median, find the variance, and find the standard deviation!
+Directions are at the top of each file. Once you have followed those directions, run the file with:
+
+node <filename>
+
+Example: node data.js
