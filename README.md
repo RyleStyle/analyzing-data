@@ -1,5 +1,5 @@
-Directions are at the top of each file. Once you have followed those directions, run the file with:
+<h1>Directions are at the top of each file.</h1>
+<p>Once you have followed those directions, run the file with:</p>
+<strong>node filename.js</strong>
 
-node <filename>
-
-Example: node data.js
+<p>Example: node data.js</p>

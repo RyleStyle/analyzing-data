@@ -8,7 +8,7 @@ Example: [1, 7, 9, 10, 23, 51, 100]
 
 
 
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+let numbers = [10, 11, 4, 7, 12, 11, 16, 6, 9, 15]
 // ENTER NUMBERS ABOVE
 
 
@@ -139,6 +139,7 @@ sorted.forEach(num => {
     standardDeviation = standardDeviation + (Math.pow(num - mean, 2))
 })
 
+    let variance = Math.round(standardDeviation/total*100)/100
     let sd = Math.round(Math.sqrt(standardDeviation/total)*100)/100
     // Multiply the Standard Deviation by 100 so it rounds to the nearest integer, then undo that
     // by dividing by 100 so it goes back to it's initial form... but rounded!
@@ -146,3 +147,4 @@ sorted.forEach(num => {
     
 
 console.log(`Standard Deviation: ${sd}`)
+console.log(`Variance: ${variance}`)
