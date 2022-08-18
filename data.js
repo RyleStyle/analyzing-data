@@ -12,7 +12,7 @@ let numbers = [42, 53, 68, 74, 84, 87, 89, 89, 94, 100]
 // ENTER NUMBERS ABOVE
 
 
-
+// ------DO NOT CHANGE ANYTHING PAST THIS POINT------
 
 
 // Sorted/Total
