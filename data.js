@@ -8,7 +8,7 @@ Example: [1, 7, 9, 10, 23, 51, 100]
 
 
 
-let numbers = [10, 11, 4, 7, 12, 11, 16, 6, 9, 15]
+let numbers = [42, 53, 68, 74, 84, 87, 89, 89, 94, 100]
 // ENTER NUMBERS ABOVE
 
 
