@@ -1,12 +1,15 @@
-const string = "id,name"
+// In this file you will learn how to split up a string at any character.
+// Keep in mind the character you use to split will NOT be included in the final array.
 
-string.split(",")
+const string = "test,string"
 
-console.log(string)
-console.log(string.split(","))
+string.split(",") // Splitting the string in between both words
 
-let stringOne = string.split(",")[0] // id
-let stringTwo = string.split(",")[1] // name
+console.log(string) // test,string
+console.log(string.split(",")) // ["test", "string"]
+
+let stringOne = string.split(",")[0] // test
+let stringTwo = string.split(",")[1] // string
 
 console.log(stringOne)
 console.log(stringTwo)
