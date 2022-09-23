@@ -23,4 +23,3 @@ let stringAgainTwo = finalArray[1]
 
 console.log(stringAgain) // test
 console.log(stringAgainTwo) // string
-
